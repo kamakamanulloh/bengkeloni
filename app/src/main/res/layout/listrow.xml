@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp">
+    <com.android.volley.toolbox.NetworkImageView
+
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+
+        android:layout_weight="1"
+        android:id="@+id/contoh"
+        android:layout_gravity="center_horizontal"
+
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/nmbeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contoh"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#ff263238"
+
+        android:textStyle="bold"
+        android:typeface="sans"
+
+        android:layout_marginTop="22.5dp" />
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nmbeng"
+        android:layout_toRightOf="@+id/contoh"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#ff263238"
+
+        android:textStyle="bold"
+        android:typeface="sans"
+
+        android:layout_marginTop="22.5dp" />
+
+
+
+</RelativeLayout>
